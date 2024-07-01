@@ -1,5 +1,5 @@
 try {
-	process.env.LESSONS = process.env.LESSONS ?? 1;
+	process.env.LESSONS = process.env.LESSONS ?? 1000000;
 
 	const headers = {
 		"Content-Type": "application/json",
